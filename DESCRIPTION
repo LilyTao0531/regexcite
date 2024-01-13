@@ -1,0 +1,17 @@
+Package: regexcite
+Title: This package splits a given string (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person("Chengyu", "Tao", , "bravolavier@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package splits a given string. It can split whatever string 
+  that a user provided. Very useful!
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    stringr
